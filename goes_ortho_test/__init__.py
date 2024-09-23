@@ -1,5 +1,15 @@
-"""Top-level package for goes-ortho."""
+from .version import version as __version__
 
-__author__ = """Steven Pestana"""
-__email__ = "spestana@uw.edu"
-__version__ = "0.0.2"
+__all__ = [
+    "__version__",
+    "clip",
+    "geometry",
+    "get_data",
+    "orthorectify",
+    "rad",
+    "timeseries",
+    "Downloader",
+    "checkData",
+    "utils",
+    "io",
+]
